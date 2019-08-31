@@ -10595,11 +10595,11 @@ ul{
 }
 .search {
   position: absolute;
-  top: 39%;
-  right: 17px;
+  top: 26px;
+  right: 15px;
   transform: translate(0%,-50%);
-  width: 50px;
-  height: 47px;
+  width: 67px;
+  height: 59px;
   background: #fff;
   box-shadow: 0 5px 20px rgba(0,0,0,.5);
   /* border-radius: 4px; */
@@ -10608,7 +10608,7 @@ ul{
   transition: all .5s;
 }
 .search.active {
-  width: 400px;
+  width: 340px;
   position: absolute;
   top: 120%;
   z-index: 999999;
@@ -10631,13 +10631,13 @@ ul{
   background:#ff8b38;
 }
 .icon {
-  position:absolute;
-  top:-4px;
-  right:-7px;
-  width:60px;
-  height:60px;
-  cursor:pointer;
-  transition:.5s;
+  position: absolute;
+  top: 0;
+  right: -2px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: .5s;
   /* border-radius:4px; */
 }
 .search.active .icon:before {
